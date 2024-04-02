@@ -1,0 +1,44 @@
+p{
+    background-color: blueviolet;
+}
+
+h1{
+    color: red;
+}
+
+#testing1{
+    color: aqua;
+}
+
+#testing2{
+    color: green;
+}
+
+.para1{
+    color: yellow;
+    align-items: center;
+    display: inline;
+    /* visibility: hidden; */
+}
+
+.para2{
+    color: violet;
+    text-align: center;
+}
+
+*{
+    background-color: bisque
+}
+
+input[type="text"]{
+    border: 1px solid blue;
+}
+
+input[type="submit"]{
+    border: 1px solid blue;
+}
+
+.division1{
+    margin: 40px;
+    padding: 20px;
+}

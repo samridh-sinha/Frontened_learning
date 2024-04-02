@@ -1,0 +1,53 @@
+id are assignes to specific properties 
+
+class can have specific properties inside it
+e.g if you have a logn and logot button if we need to maintain the same button style for that we can use 
+class.
+
+However if we want to create a new button altogether wth a differtn style then w can use id 
+
+id is always the uniqe and should not be used any place else.
+
+Diferet ways to assign css 
+1) Internal css
+2) Inline css
+3) External css
+
+style tag is always used inside the head tag 
+
+selectors
+1) elements 
+2) ids 
+3) class
+
+Universal selectors:
+* when used everything in the page will reflect the cchnages mentioned in the univerdal selectpr 
+
+text prtoperties 
+pripetis we assign to text 
+
+
+Class is represented by a .
+and an id is represented by an #
+
+div is a division of a webpage 
+whatever is written inside a div is put inside a transperant box.
+
+Its a way of breaking a copontnt inot different parts 
+
+The space aroud the invisible box is called the margin the space outside the box is caled the margin 
+The space between the border and the content is called as padding.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,14 +1,42 @@
 
-
 <html>
     <head>
         <title>
             Netflix
         </title>
+        <link rel="stylesheet" href="index.css">
+        <!-- <style>
+            p{
+    background-color: blueviolet;
+}
+
+h1{
+    color: red;
+}
+
+#testing1{
+    color: aqua;
+}
+
+#testing2{
+    color: green;
+}
+
+.para1{
+    color: yellow;
+}
+
+.para2{
+    color: violet;
+}
+        </style> -->
     </head>
     <body>
         <!-- Content goes here -->
-        <h1>
+        <h1 id="testing1">
+            This is the heading
+        </h1>
+        <h1 id="testing2">
             This is the heading
         </h1>
         <h2>
@@ -17,7 +45,7 @@
         <h3>
             H3 Heading 
         </h3>
-        <h4>
+        <h4 style="color: blueviolet;">
             H4 Heading
         </h4>
         <h5>
@@ -26,7 +54,12 @@
         <h6>
             H6 Heading
         </h6>
-        <p>
+        <p class="para1">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+            but also the leap into electronic typesetting, remaining essentially unchanged. <br>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+
+        <p  class="para2"> 
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
             but also the leap into electronic typesetting, remaining essentially unchanged. <br>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
@@ -83,14 +116,17 @@
             </li>
         </ol>
 
-        <!--This si teh form stack-->
+        <!--This is the form stack-->
         <form>
+            <input type="text" placeholder="Enter your name">
+            <input type="text" placeholder="Enter your name">
+            <input type="text" placeholder="Enter your name">
             <input type="text" placeholder="Enter your name">
             <input type="email" placeholder="Enter your email">
             <button type="submit">Submit</button>
             <input type="submit" value="Submit">
         </form>
-        
+
         <table>
             <!-- tr is table row -->
             <tr>
@@ -112,5 +148,10 @@
                 <td>25</td>
             </tr>
         </table>
+
+
+        <div class="division1">
+            <h1>This is a division</h1>
+        </div>
     </body>
 </html>

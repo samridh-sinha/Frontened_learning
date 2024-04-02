@@ -1,0 +1,6 @@
+flex is a method of arranging items on the bases of x or y axis 
+
+Grid its a way of arranging things in the form of rows and columns 
+Grid divides the screen in to 12 equal clumns and aligns the ietms in the 12 equal cols.
+
+

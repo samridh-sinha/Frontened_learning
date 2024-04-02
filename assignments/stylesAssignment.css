@@ -1,0 +1,31 @@
+.div{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.div2{
+    display: grid;
+    grid-template-columns: repeat(3, 90px);
+    background-color: #453F78;
+    width: 450px;
+    height: 500px;
+    padding: 20px;
+}
+
+#likes{
+
+}
+
+#match{
+
+}
+
+#genre{
+    color: white;
+}
+
+
+
+

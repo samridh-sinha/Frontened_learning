@@ -1,0 +1,78 @@
+.list1{
+    /* display: inline; */
+    display: flex;
+}
+
+.list1{
+    display: flex;
+    justify-content: space-around; 
+    /* align-items: center; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap;  */
+}
+
+.div1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+.div2{
+    display: flex;
+    justify-content: center;/*Aligns items in the center if the div*/
+    align-items: center; /* Aligns to the center of the div from the x axis i.e in the center from top and bottim
+    i.e it aligns them in the center sccording to thte heoght if the div*/
+}
+
+
+.div3{
+    display: flex;
+    flex-wrap: wrap; /*If the bumber of elemnts do not fit on the same line then flex wrap brings them to the net line*/
+}
+
+.div4{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);/*Creates 2 columns of 100px each. if we dont mention the pixels then 
+    repeat wnt work at all*/
+}
+
+h1{
+    font-style: italic;
+}
+
+h2{
+    text-decoration: underline;
+    letter-spacing: 2px; /*Each word has 2 pax deistance between them*/
+}
+
+.button{
+    background-color: green;
+    color: white;
+    transition: background-color 0.7 ease-in-out; /*On click the button mives up or down
+    Helps us move from one state to another in a smooth format */
+
+}
+
+.button:hover{
+    background-color: darkblue;
+}
+
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(200px);
+    }
+}
+
+
+
+
+
+
+
+
